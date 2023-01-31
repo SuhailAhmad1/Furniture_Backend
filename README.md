@@ -2,7 +2,7 @@
 Hi,  
 So This is the backend(apis) for a furniture company.  
 After cloning this repo. Create and activate the virtual env.  
-And run `pip intsall -r requuirement.txt`, It will install all the necessary libraries used in this project.
+And run `pip intsall -r requirement.txt`, It will install all the necessary libraries used in this project.
 
 ## Main libraries used are :
 1. Flask : For creating the server and the apis.
