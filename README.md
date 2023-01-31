@@ -21,7 +21,7 @@ And run `pip intsall -r requirement.txt`, It will install all the necessary libr
     {
         "userName": "Sayar Ahmad Rather",
         "emailId":"suhiinu1@gmail.com",
-        "password": "331998ss"
+        "password": "33**""8ss"
     }
     This api will create new User if the user is not registered already and   
     will send the user a mail notification about successfull registration.
@@ -35,14 +35,14 @@ And run `pip intsall -r requirement.txt`, It will install all the necessary libr
     localhost:5000/api/v1/auth/login
     "POST" request on it with a raw payload of the form:
     {
-        "emailId":"suhiinu@gmail.com",
-        "password":"331998ss"
+        "emailId":"suhii***@gmail.com",
+        "password":"3319***s"
     } 
     If login details are correct it will create JWT token and send it with json as response like:
     {
     "user": {
         "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY3NTE3MTEwOSwianRpIjoiMjA1MTQyYjgtZTU2MS00ZmZmLTkwZDktZDc2NzViODA0N2MyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MTEsIm5iZiI6MTY3NTE3MTEwOSwiZXhwIjoxNjc1MTcyMDA5fQ.StdRWpZUzi99DS6uoyFEXgoLWD-4wkPdNMjLe-qpkkM",
-        "email": "suhiinu@gmail.com",
+        "email": "suh***nu@gmail.com",
         "username": "Suhail Ahmad Bhat"
     }
     }
@@ -70,7 +70,7 @@ And run `pip intsall -r requirement.txt`, It will install all the necessary libr
         },
     ],
     "user": {
-        "emailId": "suhiinu@gmail.com",
+        "emailId": "suhii***@gmail.com",
         "userName": "Suhail Ahmad Bhat"
     }
 
