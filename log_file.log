@@ -1,0 +1,128 @@
+2023-01-31 17:37:21,859 - root - DEBUG - Starting Local Development
+2023-01-31 17:37:21,911 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.71.131:5000
+2023-01-31 17:37:21,912 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2023-01-31 17:37:21,914 - werkzeug - INFO -  * Restarting with stat
+2023-01-31 17:37:22,520 - root - DEBUG - Starting Local Development
+2023-01-31 17:37:22,562 - werkzeug - WARNING -  * Debugger is active!
+2023-01-31 17:37:22,566 - werkzeug - INFO -  * Debugger PIN: 225-377-207
+2023-01-31 17:37:37,898 - root - DEBUG - User successfully logged in.
+2023-01-31 17:37:37,902 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 17:37:37] "POST /api/v1/auth/login HTTP/1.1" 200 -
+2023-01-31 17:38:21,503 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 17:38:21] "[31m[1mPOST /api/v1/furnitures HTTP/1.1[0m" 405 -
+2023-01-31 17:38:26,928 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 17:38:26] "[31m[1mGET /api/v1/furnitures HTTP/1.1[0m" 401 -
+2023-01-31 17:38:56,094 - root - DEBUG - Getting the list of the furntures.
+2023-01-31 17:38:56,205 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 17:38:56] "GET /api/v1/furnitures HTTP/1.1" 200 -
+2023-01-31 17:39:32,682 - werkzeug - INFO -  * Detected change in 'C:\\Users\\umera\\dummy\\application\\api\\customer.py', reloading
+2023-01-31 17:39:32,767 - werkzeug - INFO -  * Restarting with stat
+2023-01-31 17:39:33,399 - root - DEBUG - Starting Local Development
+2023-01-31 17:39:33,445 - werkzeug - WARNING -  * Debugger is active!
+2023-01-31 17:39:33,451 - werkzeug - INFO -  * Debugger PIN: 225-377-207
+2023-01-31 17:39:55,340 - root - DEBUG - Getting the list of the furntures.
+2023-01-31 17:39:55,381 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 17:39:55] "GET /api/v1/furnitures HTTP/1.1" 200 -
+2023-01-31 17:40:29,616 - werkzeug - INFO -  * Detected change in 'C:\\Users\\umera\\dummy\\application\\api\\customer.py', reloading
+2023-01-31 17:40:29,721 - werkzeug - INFO -  * Restarting with stat
+2023-01-31 17:40:30,365 - root - DEBUG - Starting Local Development
+2023-01-31 17:40:30,431 - werkzeug - WARNING -  * Debugger is active!
+2023-01-31 17:40:30,436 - werkzeug - INFO -  * Debugger PIN: 225-377-207
+2023-01-31 17:41:36,750 - werkzeug - INFO -  * Detected change in 'C:\\Users\\umera\\dummy\\application\\api\\admin.py', reloading
+2023-01-31 17:41:36,841 - werkzeug - INFO -  * Restarting with stat
+2023-01-31 17:41:37,521 - root - DEBUG - Starting Local Development
+2023-01-31 17:41:37,575 - werkzeug - WARNING -  * Debugger is active!
+2023-01-31 17:41:37,584 - werkzeug - INFO -  * Debugger PIN: 225-377-207
+2023-01-31 17:41:42,022 - root - DEBUG - Getting the list of the furntures.
+2023-01-31 17:41:42,023 - root - DEBUG - Furniture list retrieved successfully.
+2023-01-31 17:41:42,025 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 17:41:42] "GET /api/v1/furnitures HTTP/1.1" 200 -
+2023-01-31 18:42:04,142 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:42:04] "[33mGET /api/v1/register HTTP/1.1[0m" 404 -
+2023-01-31 18:42:22,908 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:42:22] "[33mPOST /api/v1/register HTTP/1.1[0m" 404 -
+2023-01-31 18:42:59,894 - root - ERROR - Required details not given.
+2023-01-31 18:42:59,896 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:42:59] "[31m[1mPOST /api/v1/auth/register HTTP/1.1[0m" 400 -
+2023-01-31 18:43:36,135 - root - ERROR - Something went wrong while registration.
+2023-01-31 18:43:36,136 - root - ERROR - Expecting ',' delimiter: line 3 column 5 (char 45)
+Traceback (most recent call last):
+  File "C:\Users\umera\dummy\application\api\auth.py", line 15, in register
+    input_data = json.loads(request.data)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.3568.0_x64__qbz5n2kfra8p0\lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 3 column 5 (char 45)
+2023-01-31 18:43:36,149 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:43:36] "[35m[1mPOST /api/v1/auth/register HTTP/1.1[0m" 500 -
+2023-01-31 18:43:53,421 - root - DEBUG - Creating new User
+2023-01-31 18:43:53,484 - root - INFO - New User created
+2023-01-31 18:43:53,485 - root - INFO - Sending User the mail about Successfull Registration
+2023-01-31 18:43:57,503 - root - DEBUG - Logging to the sender account.
+2023-01-31 18:44:02,487 - root - DEBUG - Mail sent to the customer Successfully.
+2023-01-31 18:44:02,492 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:44:02] "POST /api/v1/auth/register HTTP/1.1" 200 -
+2023-01-31 18:48:29,379 - root - DEBUG - User successfully logged in.
+2023-01-31 18:48:29,387 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:48:29] "POST /api/v1/auth/login HTTP/1.1" 200 -
+2023-01-31 18:51:00,135 - root - DEBUG - Creating new User
+2023-01-31 18:51:00,158 - root - INFO - New User created
+2023-01-31 18:51:00,160 - root - INFO - Sending User the mail about Successfull Registration
+2023-01-31 18:51:01,388 - root - DEBUG - Logging to the sender account.
+2023-01-31 18:51:06,727 - root - DEBUG - Mail sent to the customer Successfully.
+2023-01-31 18:51:06,729 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:51:06] "POST /api/v1/auth/register HTTP/1.1" 200 -
+2023-01-31 18:54:06,430 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:54:06] "[31m[1mPOST /api/v1/furnitures HTTP/1.1[0m" 405 -
+2023-01-31 18:54:11,809 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:54:11] "[31m[1mGET /api/v1/furnitures HTTP/1.1[0m" 401 -
+2023-01-31 18:54:50,248 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:54:50] "[31m[1mGET /api/v1/auth/login HTTP/1.1[0m" 405 -
+2023-01-31 18:54:55,535 - root - DEBUG - User successfully logged in.
+2023-01-31 18:54:55,538 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:54:55] "POST /api/v1/auth/login HTTP/1.1" 200 -
+2023-01-31 18:55:15,807 - root - DEBUG - Getting the list of the furntures.
+2023-01-31 18:55:15,808 - root - DEBUG - Furniture list retrieved successfully.
+2023-01-31 18:55:15,810 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 18:55:15] "GET /api/v1/furnitures HTTP/1.1" 200 -
+2023-01-31 19:00:52,721 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:00:52] "[31m[1mGET /api/v1/placeorder HTTP/1.1[0m" 405 -
+2023-01-31 19:00:58,365 - root - INFO - Orders placed successfully
+2023-01-31 19:00:58,368 - root - INFO - Trying to send the email to the user.
+2023-01-31 19:01:00,959 - root - DEBUG - Logging to the sender account.
+2023-01-31 19:01:05,971 - root - DEBUG - Mail sent to the customer Successfully.
+2023-01-31 19:01:05,974 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:01:05] "POST /api/v1/placeorder HTTP/1.1" 200 -
+2023-01-31 19:05:20,248 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:05:20] "[31m[1mPOST /api/v1/cancelorder/13 HTTP/1.1[0m" 405 -
+2023-01-31 19:05:26,410 - root - DEBUG - Order deleted successfully
+2023-01-31 19:05:26,420 - root - INFO - Trying to send the mail to the user.
+2023-01-31 19:05:29,231 - root - DEBUG - Logging to the sender account.
+2023-01-31 19:05:32,825 - root - DEBUG - Mail sent to the customer Successfully.
+2023-01-31 19:05:32,834 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:05:32] "DELETE /api/v1/cancelorder/13 HTTP/1.1" 200 -
+2023-01-31 19:14:36,214 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:14:36] "[31m[1mDELETE /api/v1/admin/edit/4 HTTP/1.1[0m" 405 -
+2023-01-31 19:14:41,414 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:14:41] "[31m[1mPUT /api/v1/admin/edit/4 HTTP/1.1[0m" 401 -
+2023-01-31 19:14:45,873 - root - DEBUG - User successfully logged in.
+2023-01-31 19:14:45,880 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:14:45] "POST /api/v1/auth/login HTTP/1.1" 200 -
+2023-01-31 19:14:58,964 - root - DEBUG - Checking for authorization.
+2023-01-31 19:14:58,966 - root - DEBUG - Updating
+2023-01-31 19:14:58,986 - root - INFO - Successfully updated deatils of a customer.
+2023-01-31 19:14:58,987 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:14:58] "PUT /api/v1/admin/edit/4 HTTP/1.1" 200 -
+2023-01-31 19:20:48,573 - root - DEBUG - First deleted the orders associated with that customer.
+2023-01-31 19:20:48,604 - root - DEBUG - User deleted successfully.
+2023-01-31 19:20:48,609 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:20:48] "DELETE /api/v1/admin/delete/12 HTTP/1.1" 200 -
+2023-01-31 19:22:43,087 - root - DEBUG - Orders retreived successfully
+2023-01-31 19:22:43,092 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:22:43] "GET /api/v1/admin/allorders HTTP/1.1" 200 -
+2023-01-31 19:24:58,259 - werkzeug - INFO -  * Detected change in 'C:\\Users\\umera\\dummy\\application\\api\\admin.py', reloading
+2023-01-31 19:24:58,438 - werkzeug - INFO -  * Restarting with stat
+2023-01-31 19:25:00,785 - root - DEBUG - Starting Local Development
+2023-01-31 19:25:00,898 - werkzeug - WARNING -  * Debugger is active!
+2023-01-31 19:25:00,905 - werkzeug - INFO -  * Debugger PIN: 225-377-207
+2023-01-31 19:25:03,377 - root - DEBUG - Orders retreived successfully
+2023-01-31 19:25:03,380 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:25:03] "GET /api/v1/admin/allorders HTTP/1.1" 200 -
+2023-01-31 19:29:21,317 - werkzeug - INFO -  * Detected change in 'C:\\Users\\umera\\dummy\\application\\api\\admin.py', reloading
+2023-01-31 19:29:21,402 - werkzeug - INFO -  * Restarting with stat
+2023-01-31 19:29:22,206 - root - DEBUG - Starting Local Development
+2023-01-31 19:29:22,255 - werkzeug - WARNING -  * Debugger is active!
+2023-01-31 19:29:22,260 - werkzeug - INFO -  * Debugger PIN: 225-377-207
+2023-01-31 19:32:00,112 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:32:00] "[31m[1mPUT /api/v1/admin/approveorder/1 HTTP/1.1[0m" 401 -
+2023-01-31 19:32:04,014 - root - DEBUG - User successfully logged in.
+2023-01-31 19:32:04,016 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:32:04] "POST /api/v1/auth/login HTTP/1.1" 200 -
+2023-01-31 19:32:32,081 - root - DEBUG - Logging to the sender account.
+2023-01-31 19:32:37,541 - root - DEBUG - Mail sent to the customer Successfully.
+2023-01-31 19:32:37,546 - root - DEBUG - Fullfilled and sent mail
+2023-01-31 19:32:37,554 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:32:37] "PUT /api/v1/admin/approveorder/1 HTTP/1.1" 200 -
+2023-01-31 19:34:07,749 - werkzeug - INFO -  * Detected change in 'C:\\Users\\umera\\dummy\\application\\api\\admin.py', reloading
+2023-01-31 19:34:07,874 - werkzeug - INFO -  * Restarting with stat
+2023-01-31 19:34:08,723 - root - DEBUG - Starting Local Development
+2023-01-31 19:34:08,789 - werkzeug - WARNING -  * Debugger is active!
+2023-01-31 19:34:08,798 - werkzeug - INFO -  * Debugger PIN: 225-377-207
+2023-01-31 19:34:58,404 - root - DEBUG - Logging to the sender account.
+2023-01-31 19:35:02,601 - root - DEBUG - Mail sent to the customer Successfully.
+2023-01-31 19:35:02,608 - root - DEBUG - Fullfilled and sent mail
+2023-01-31 19:35:02,617 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2023 19:35:02] "PUT /api/v1/admin/fullfillorder/12 HTTP/1.1" 200 -
